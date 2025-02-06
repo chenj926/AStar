@@ -4,8 +4,7 @@ Original code developed by Yudong (William) Xu.
 
 Route planning application on OpenStreetMap for cyclists.
 
-## Questions (submission is via github, see syllabus for the due date)
-
+## Questions
 * **[1 pts]** Implement an **admissable** AStarHeuristic.java (subclassing Heuristic.java) for CostFunctionAllFeatures.  Do not implement a 0 or constant heuristic -- it should be computed from properties of *both* the start and end nodes.
 * **[3 pts]** Implement UniformCostPlanner.java (1 pt), GreedyBestFirstPlanner.java (1 pt), AStarPlanner.java (1 pts).  For simplicity, use the tree search (not graph search) version.  When a heuristic is needed, use your own AStarHeuristic.  All must subclass Planner.java so we can autograde them. Your implementations must take less than 60 seconds (60000 ms) to find a route (if it exists) between two points on toronto.osm.
 * **[2 pts]** Code Review
@@ -49,5 +48,8 @@ osm files can be exported from the official openStreetMap website
 https://www.openstreetmap.org/export
 
 Cycling safety data for toronto can be downloaded from https://data.torontopolice.on.ca/pages/traffic
+
+
+WARNING: NO LICENSE, means no copy, no commercial usage and anything using my code without my permission not permitted.
 
 
