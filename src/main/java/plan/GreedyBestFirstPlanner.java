@@ -58,7 +58,7 @@ public class GreedyBestFirstPlanner extends Planner {
             for (MapEdge edge : currNode.edges) {
                 MapNode nextNode = edge.destinationNode;
                 // skip the parent node
-                if (expandedNodes.contains(nextNode)) {
+                if (parents.containsKey(nextNode)) {
                     continue;
                 }
 
